@@ -1,0 +1,6 @@
+# Archivos académicos e informes locales (se entregan en campus virtual, no en repo de código)
+*.docx
+*.pdf
+*.zip
+__pycache__/
+*.pyc
