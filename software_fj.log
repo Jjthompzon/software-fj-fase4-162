@@ -1,0 +1,41 @@
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Sistema de Gestión Software FJ inicializado en memoria correctamente.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Iniciando registro de cliente con documento '1036630806'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Cliente registrado exitosamente: Astrid Natalia Pineda (ID: 1036630806)
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Finalizado ciclo de transacción para registro de cliente [1036630806] -> Estado: CON ÉXITO.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Iniciando registro de cliente con documento '79065563'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Cliente registrado exitosamente: Carlos Andres Mendoza (ID: 79065563)
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Finalizado ciclo de transacción para registro de cliente [79065563] -> Estado: CON ÉXITO.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Iniciando registro de cliente con documento '52849120'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Cliente registrado exitosamente: Diana Marcela Gomez (ID: 52849120)
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Finalizado ciclo de transacción para registro de cliente [52849120] -> Estado: CON ÉXITO.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Iniciando registro de cliente con documento '1036A45B'...
+[2026-11-20 22:14:00] [ERROR   ] [SoftwareFJ] Fallo al registrar cliente [1036A45B]: La cédula '1036A45B' es inválida: debe contener únicamente dígitos.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Finalizado ciclo de transacción para registro de cliente [1036A45B] -> Estado: CON EXCEPCIÓN.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Iniciando registro de cliente con documento '1098765432'...
+[2026-11-20 22:14:00] [ERROR   ] [SoftwareFJ] Fallo al registrar cliente [1098765432]: El correo 'correo_sin_arroba_ni_dominio' no posee una sintaxis válida (ejemplo@dominio.com).
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Finalizado ciclo de transacción para registro de cliente [1098765432] -> Estado: CON EXCEPCIÓN.
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Servicio incorporado al catálogo: [SAL-01] Sala de Juntas Ejecutiva Alfa
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Servicio incorporado al catálogo: [EQP-01] Laptops Dell Precision i7 (Lote de Ingeniería)
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Servicio incorporado al catálogo: [ASE-01] Consultoría en Ciberseguridad e Infraestructura
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Procesando creación de reserva 'RSV-1001'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva creada en estado PENDIENTE: [RSV-1001] Cliente: Astrid Natalia Pineda | Servicio: Sala de Juntas Ejecutiva Alfa | Total: $299,880.00
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Protocolo de creación para reserva [RSV-1001] concluido (Éxito=True).
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva [RSV-1001] confirmada exitosamente. Servicio asegurado.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Procesando creación de reserva 'RSV-1002'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva creada en estado PENDIENTE: [RSV-1002] Cliente: Carlos Andres Mendoza | Servicio: Sala de Juntas Ejecutiva Alfa | Total: $166,600.00
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Protocolo de creación para reserva [RSV-1002] concluido (Éxito=True).
+[2026-11-20 22:14:00] [WARNING ] [SoftwareFJ] Error al confirmar reserva [RSV-1002]: [ERR-CAP-006] Aforo excedido en sala 'Sala de Juntas Ejecutiva Alfa'. Solicitado: 25, Capacidad máxima: 12 personas.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Procesando creación de reserva 'RSV-1003'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva creada en estado PENDIENTE: [RSV-1003] Cliente: Diana Marcela Gomez | Servicio: Laptops Dell Precision i7 (Lote de Ingeniería) | Total: $571,200.00
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Protocolo de creación para reserva [RSV-1003] concluido (Éxito=True).
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva [RSV-1003] confirmada exitosamente. Servicio asegurado.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Procesando creación de reserva 'RSV-1004'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva creada en estado PENDIENTE: [RSV-1004] Cliente: Astrid Natalia Pineda | Servicio: Laptops Dell Precision i7 (Lote de Ingeniería) | Total: $47,600.00
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Protocolo de creación para reserva [RSV-1004] concluido (Éxito=True).
+[2026-11-20 22:14:00] [WARNING ] [SoftwareFJ] Error al confirmar reserva [RSV-1004]: [ERR-SRV-004] El equipo 'Laptops Dell Precision i7 (Lote de Ingeniería)' está dado de baja temporalmente.
+[2026-11-20 22:14:00] [WARNING ] [SoftwareFJ] Reserva [RSV-1001] CANCELADA. Causa: Reunión aplazada por el cliente
+[2026-11-20 22:14:00] [ERROR   ] [SoftwareFJ] Fallo al cancelar reserva [RSV-1001]: [ERR-STA-007] La reserva [RSV-1001] ya se encuentra CANCELADA. Operación redundante rechazada.
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Procesando creación de reserva 'RSV-1005'...
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva creada en estado PENDIENTE: [RSV-1005] Cliente: Astrid Natalia Pineda | Servicio: Consultoría en Ciberseguridad e Infraestructura | Total: $696,150.00
+[2026-11-20 22:14:00] [DEBUG   ] [SoftwareFJ] Protocolo de creación para reserva [RSV-1005] concluido (Éxito=True).
+[2026-11-20 22:14:00] [INFO    ] [SoftwareFJ] Reserva [RSV-1005] confirmada exitosamente. Servicio asegurado.
